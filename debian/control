@@ -1,0 +1,12 @@
+Source: ros-kinetic-rslidar-driver
+Section: misc
+Priority: extra
+Maintainer: Tony <tony.zhang@robosense.cn>
+Build-Depends: debhelper (>= 9.0.0), libpcap0.8-dev, libpcl-dev, ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-diagnostic-updater, ros-kinetic-dynamic-reconfigure, ros-kinetic-message-generation, ros-kinetic-nodelet, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-rslidar-msgs, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rslidar-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl1.7, ros-kinetic-angles, ros-kinetic-diagnostic-updater, ros-kinetic-dynamic-reconfigure, ros-kinetic-message-runtime, ros-kinetic-nodelet, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rslidar-msgs, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: segmentation
