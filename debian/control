@@ -1,0 +1,12 @@
+Source: ros-melodic-rslidar-driver
+Section: misc
+Priority: extra
+Maintainer: Tony <tony.zhang@robosense.cn>
+Build-Depends: debhelper (>= 9.0.0), libpcap0.8-dev, libpcl-dev, ros-melodic-angles, ros-melodic-catkin, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-rostest, ros-melodic-rslidar-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rslidar-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, ros-melodic-angles, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-message-runtime, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rospy, ros-melodic-rslidar-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: segmentation
