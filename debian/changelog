@@ -1,0 +1,19 @@
+ros-melodic-rslidar-msgs (1.0.2-0stretch) stretch; urgency=high
+
+
+
+ -- Abraham Monrroy <abrahammonrroy@yahoo.com>  Sun, 24 Mar 2019 15:00:00 -0000
+
+ros-melodic-rslidar-msgs (1.0.1-0stretch) stretch; urgency=high
+
+  * Fixed CMake, packages and Launch files
+  * perf:improve the ordered pointcloud code
+  * Covert double to float 2. Remove the re-defined variable.
+  * Modify the code expression. 2. Remove the unnecessary variables.
+  * Remove the uncessary PWR file content
+  * rslidar mutil node version 1.0.0
+  * Contributors: Tony Zhang, amc-nu
+
+ -- Abraham Monrroy <abrahammonrroy@yahoo.com>  Thu, 21 Mar 2019 15:00:00 -0000
+
+
