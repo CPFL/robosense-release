@@ -1,0 +1,16 @@
+ros-melodic-rslidar (1.0.2-0stretch) stretch; urgency=high
+
+
+
+ -- Abraham Monrroy <abrahammonrroy@yahoo.com>  Sun, 24 Mar 2019 15:00:00 -0000
+
+ros-melodic-rslidar (1.0.1-0stretch) stretch; urgency=high
+
+  * Updated maintainer for this fork
+  * Fixed CMake, packages and Launch files
+  * rslidar mutil node version 1.0.0
+  * Contributors: Tony Zhang, amc-nu
+
+ -- Abraham Monrroy <abrahammonrroy@yahoo.com>  Thu, 21 Mar 2019 15:00:00 -0000
+
+
