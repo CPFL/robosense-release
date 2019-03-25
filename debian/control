@@ -1,0 +1,12 @@
+Source: ros-melodic-rslidar-pointcloud
+Section: misc
+Priority: extra
+Maintainer: Abraham Monrroy <abrahammonrroy@yahoo.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-angles, ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-roslib, ros-melodic-rostest, ros-melodic-rslidar-driver, ros-melodic-rslidar-msgs, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rslidar-pointcloud
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-angles, ros-melodic-dynamic-reconfigure, ros-melodic-nodelet, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rslidar-driver, ros-melodic-rslidar-msgs, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: Point cloud conversions for rslidar 3D LIDARs.
