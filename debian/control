@@ -1,0 +1,12 @@
+Source: ros-kinetic-rslidar-pointcloud
+Section: misc
+Priority: extra
+Maintainer: Abraham Monrroy <abrahammonrroy@yahoo.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-nodelet, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-rostest, ros-kinetic-rslidar-driver, ros-kinetic-rslidar-msgs, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rslidar-pointcloud
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-angles, ros-kinetic-dynamic-reconfigure, ros-kinetic-nodelet, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rslidar-driver, ros-kinetic-rslidar-msgs, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: Point cloud conversions for rslidar 3D LIDARs.
